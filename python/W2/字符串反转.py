@@ -1,4 +1,3 @@
-
 text = input("请输入一段文本：")
 reversed_text = text[::-1]
 

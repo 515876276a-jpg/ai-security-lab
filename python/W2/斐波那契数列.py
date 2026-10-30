@@ -6,6 +6,10 @@ try:
 except ValueError:
     print("输入的不是一个有效的整数，请重新输入。")
     exit()
-for i in range(c):
-    print(a)
-    a, b = b, a + b
+if c <= 0:
+    print("请输入一个正整数。")
+    exit()
+else:
+    for i in range(c):
+        print(a)
+        a, b = b, a + b
