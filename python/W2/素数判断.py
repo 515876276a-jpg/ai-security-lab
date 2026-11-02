@@ -1,7 +1,5 @@
-
-data = int(input("请输入一个正整数："))
 try:
-    data = int(data)
+    data = int(input("请输入一个正整数："))
 except ValueError:
     print("输入的不是一个有效的整数，请重新输入。")
     exit()
