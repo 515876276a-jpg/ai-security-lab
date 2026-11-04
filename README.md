@@ -1,6 +1,6 @@
 # ai-security-lab
     ai安全学习
-python: python基础知识点学习
+##python: python基础知识点学习
     |--W2：第二周学习内容
         |--猜数字：随机生成1-10000之间的整数
         |--乘法表：生成99乘法表

@@ -1,12 +1,11 @@
-
 damolist = input("请输入一个整数列表（用逗号分隔）：")
 try:
     damolist = [int(num) for num in damolist.split(",")]
 except ValueError:
     print("输入无效，请确保输入的都是有效的整数。")
     exit()
-resualt = []
+result = []
 for i in damolist:
-    if i not in resualt:
-        resualt.append(i)
-print("去重后的列表为：", resualt)
+    if i not in result:
+        result.append(i)
+print("去重后的列表为：", result)

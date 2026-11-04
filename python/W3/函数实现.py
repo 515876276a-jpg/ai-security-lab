@@ -237,11 +237,6 @@ def _describe(title, func, args):
     else:
         print(f"[失败] {title}：{result}")
 
-
-
-
-
-
 if __name__ == "__main__":
     print("=== 函数实现演示 ===")
     _describe("猜数字", guess_num, (42, 50))

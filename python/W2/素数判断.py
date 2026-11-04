@@ -15,3 +15,4 @@ else:
                 break
         else:
             print(f"{data}是一个素数")
+            

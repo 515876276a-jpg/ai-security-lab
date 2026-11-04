@@ -18,3 +18,4 @@ while True:
         print("除数不能为0")
     else:
         print(f"{n1} {sym} {n2} = {func(n1, n2)}")
+        
