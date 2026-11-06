@@ -104,8 +104,8 @@ def convert_unit(value, from_unit, to_unit):
 
 
 def fibonacci(count):
-    """返回长度为 count 的斐波那契数列（从 0、1 开始）。"""
-    length = require_positive_int(count, "数列长度", maximum=1000)
+    """返回长度为 count 的斐波那契数列（从 0、1 开始），上限 100 项。"""
+    length = require_positive_int(count, "数列长度", maximum=100)
     a, b = 0, 1
     result = []
     for _ in range(length):
@@ -181,7 +181,7 @@ def is_leap_year(year):
 
 def is_prime(data):
     """判断整数是否素数，负数、0、1 都返回 False。"""
-    value = require_int(data, "待判断的整数", minimum=0)
+    value = require_int(data, "待判断的整数")
     if value < 2:
         return False
     if value == 2:

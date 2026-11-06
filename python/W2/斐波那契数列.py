@@ -1,6 +1,6 @@
 a = 0
 b = 1
-c = input("你想要一个多长的斐波那契数列：")
+c = input("你想要一个多长的斐波那契数列（最多 100 项）：")
 try:
     c = int(c)
 except ValueError:
@@ -8,6 +8,9 @@ except ValueError:
     exit()
 if c <= 0:
     print("请输入一个正整数。")
+    exit()
+if c > 100:
+    print("最多只能输出 100 项，请重新输入。")
     exit()
 else:
     for i in range(c):
